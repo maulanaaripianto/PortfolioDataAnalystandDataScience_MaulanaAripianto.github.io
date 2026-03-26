@@ -421,15 +421,15 @@ const content = {
     certDesc: "Validation of my expertise in Data Analytics, Data Science, and SQL from various renowned platforms.",
     
     certificates: [
-      { title: "R for Data Professional – DQLab", img: "assets/images/certs/dqlab-r.png", link: "#" },
-      { title: "Starting Programming with Python – Dicoding", img: "assets/images/certs/dicoding-python.png", link: "#" },
-      { title: "Learn Basics of Structured Query Language (SQL)", img: "assets/images/certs/dicoding-sql.png", link: "#" },
-      { title: "Learn Basics of Data Science – Dicoding", img: "assets/images/certs/dicoding-ds.png", link: "#" },
-      { title: "Learn Basics of AI – Dicoding", img: "assets/images/certs/dicoding-ai.png", link: "#" },
-      { title: "Data Analyst & Data Science Bootcamp – Dibimbing", img: "assets/images/certs/dibimbing-bootcamp.png", link: "#" },
-      { title: "Applied Data Science with Microsoft Fabric", img: "assets/images/certs/dicoding-fabric.png", link: "#" },
-      { title: "Certificated Intern CMLABS Data Analyst", img: "assets/images/certs/cmlabs-intern.png", link: "#" },
-      { title: "SQL Advanced – HackerRank", img: "assets/images/certs/hackerrank-sql.png", link: "#" }
+      { title: "R for Data Professional – DQLab", img: "assets/images/certs/dqlab-r.PNG", link: "https://academy.dqlab.id/certificate/pdf/DQLABRFDPGSRGSD" },
+      { title: "Starting Programming with Python – Dicoding", img: "assets/images/certs/dicoding-python.PNG", link: "https://www.dicoding.com/certificates/JLX157DYNZ72" },
+      { title: "Learn Basics of Structured Query Language (SQL)", img: "assets/images/certs/dicoding-sql.PNG", link: "https://www.dicoding.com/certificates/L4PQ21GQOZO1" },
+      { title: "Learn Basics of Data Science – Dicoding", img: "assets/images/certs/dicoding-ds.PNG", link: "https://www.dicoding.com/certificates/53XEKONLKXRN" },
+      { title: "Learn Basics of AI – Dicoding", img: "assets/images/certs/dicoding-ai.PNG", link: "https://www.dicoding.com/certificates/QLZ9672MMZ5D" },
+      { title: "Data Analyst & Data Science Bootcamp – Dibimbing", img: "assets/images/certs/dibimbing-bootcamp.PNG", link: "https://dibimbing.id/certificate-validation?cn=201029DS33B101122" },
+      { title: "Applied Data Science with Microsoft Fabric", img: "assets/images/certs/dicoding-fabric.PNG", link: "https://www.dicoding.com/certificates/JMZVV8KJRZN9" },
+      { title: "Certificated Intern CMLABS Data Analyst", img: "assets/images/certs/cmlabs-intern.PNG", link: "https://drive.google.com/file/d/1sDuf9cHSdyfuf6L_ucNEDUKGppMYAsr7/view" },
+      { title: "SQL Advanced – HackerRank", img: "assets/images/certs/hackerrank-sql.PNG", link: "https://www.hackerrank.com/certificates/iframe/a71c9c8e2a1f" }
     ],
 
     projectTitle: "Selected Projects",
@@ -451,19 +451,19 @@ const content = {
       {
         title: "Review & RFM Analysis for Product Performance Evaluation on Lazada (2019)",
         desc: "Using Lazada 2019 data, this study evaluates product performance, applies RFM segmentation, and derives promotional strategies from customer reviews and purchase behavior.",
-        img: "assets/images/projects/lazada.png",
+        img: "assets/images/projects/lazada.PNG",
         link: "https://drive.google.com/drive/folders/1iKDgqIpg7KY5G3YuE8DYByMVc8f9gsb8"
       },
       {
         title: "Operational and Customer Satisfaction Analysis of Zomato Delivery Services",
         desc: "This project analyzes Zomato delivery operations and customer satisfaction to identify key drivers of delivery efficiency and provide actionable recommendations.",
-        img: "assets/images/projects/zomato.png",
+        img: "assets/images/projects/zomato.PNG",
         link: "https://drive.google.com/drive/folders/1m4mIstJwRmN7Vc_5JTB8UFYSB-RJIHXF"
       },
       {
         title: "Hotel Booking Data Analysis: The Relationship Between Customer Characteristics, Operations, and Revenue",
         desc: "This project analyzes customer behavior and hotel operations to optimize revenue and improve customer satisfaction.",
-        img: "assets/images/projects/hotel.png",
+        img: "assets/images/projects/hotel.PNG",
         link: "https://drive.google.com/drive/folders/1L_GakdIlfXnKfBSnqEpSg7VYamy15y-f"
       }
     ],
@@ -472,13 +472,13 @@ const content = {
       {
         title: "Modelling SARIMA for Time series forecasting of investment",
         desc: "This project aims to analyze investment trends in Indonesia using historical data (2010-2025) and build a predictive model with SARIMA to forecast future investment patterns.",
-        img: "assets/images/projects/sarima.png",
+        img: "assets/images/projects/sarima.PNG",
         link: "https://drive.google.com/drive/folders/1NfArEIoXBbluR1PcBqxUCwsYTdvmGnnM?hl=ID"
       },
       {
         title: "E-Commerce User Behavior Analysis and Purchase Prediction",
         desc: "This project aims to analyze e-commerce user behavior to understand interaction patterns, predict purchase likelihood, and estimate customer spending.",
-        img: "assets/images/projects/ecommerce.png",
+        img: "assets/images/projects/ecommerce.PNG",
         link: "https://drive.google.com/drive/folders/1GYiJ7FkKIpUZ6T1iaSwHWUPQNIMHald_?hl=ID"
       }
     ],
