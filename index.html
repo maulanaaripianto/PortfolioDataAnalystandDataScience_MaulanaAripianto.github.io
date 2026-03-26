@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maulana Aripianto | Data Analyst & Data Science Portfolio</title>
+  <meta name="description" content="Portfolio Maulana Aripianto - Data Analyst dan Data Science dengan fokus pada SQL, Python, Power BI, dashboard analytics, ETL, dan data preparation." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+  <header class="header" id="header">
+    <div class="container navbar">
+      <div class="nav-brand">
+        <div class="brand brand-typing">
+          <span id="brandTypingText">Maulana Aripianto</span><span class="typing-cursor">|</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navMenu">
+        ☰
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" id="navHome">Home</a>
+        <a href="#education" id="navEducation">Pendidikan</a>
+        <a href="#experience" id="navExperience">Pengalaman</a>
+        <a href="#skillsPro" id="navSkills">Skills</a>
+        <a href="#certificates" id="navCertificates">Sertifikat</a>
+        <a href="#projects" id="navProjects">Portofolio</a>
+        <a href="#contact" id="navContact">Kontak</a>
+      </nav>
+
+      <div class="nav-right">
+        <div class="nav-actions">
+          <button id="langToggle" class="btn btn-outline nav-btn" aria-label="Switch language" type="button">EN</button>
+          <button id="themeToggle" class="btn btn-outline nav-btn" aria-label="Toggle theme" type="button">☀</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-left reveal">
+          <p class="hero-mini" id="heroMini">Portofolio Data Analyst dan Data Science</p>
+          <h1 class="hero-title" id="heroTitle">Halo, saya Maulana!</h1>
+          <p class="hero-role" id="heroRole">Data Analyst • Data Science • SQL • Python • Power BI • Excel</p>
+
+          <p class="hero-desc" id="heroDesc">
+            Saya adalah profesional dengan latar belakang Software Engineering yang kini berfokus pada Data Analytics dan Data Science, dengan pengalaman lebih dari 3 tahun dalam pengolahan data, otomatisasi dashboard, dan analisis operasional.
+          </p>
+
+          <ul class="hero-list" id="heroList"></ul>
+
+          <div class="hero-buttons">
+            <a href="document/Maulana_Aripianto_Data_Analyst_CV.pdf" class="btn btn-primary" download id="btnCV">Unduh CV</a>
+            <a href="document/File_Portofolio_Maulana.pdf" target="_blank" class="btn btn-secondary" id="btnPortfolio">Portofolio</a>
+          </div>
+        </div>
+
+        <div class="hero-right reveal delay-1">
+          <div class="hero-visual">
+            <div class="hero-circle"></div>
+            <div class="hero-ring"></div>
+            <img src="assets/images/profile.jpg" alt="Foto profil Maulana Aripianto" class="hero-image" />
+            <div class="floating-badge badge-one" id="badgeOne">Data Analyst</div>
+            <div class="floating-badge badge-two" id="badgeTwo">Data Science</div>
+            <div class="floating-badge badge-three" id="badgeThree">SQL • Python • Excel</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-head reveal education-head">
+          <h2 id="educationTitle">Perjalanan Belajar Saya</h2>
+          <p id="educationDesc">Perjalanan pendidikan formal, bootcamp, sertifikasi, beasiswa, dan proyek yang membentuk kemampuan saya di bidang Excel, data analytics, machine learning, dan data science.</p>
+        </div>
+
+        <div class="education-grid">
+          <article class="education-card premium-card reveal">
+            <div class="education-image-wrap">
+              <img src="assets/images/yarsi.png" alt="Universitas Yarsi" class="education-image education-image-cover" />
+              <div class="education-overlay"></div>
+              <span class="education-badge" id="edu1Year">2016–2020</span>
+            </div>
+            <div class="education-content">
+              <p class="education-label" id="edu1Label">PENDIDIKAN FORMAL</p>
+              <h3 id="edu1School">Universitas Yarsi</h3>
+              <p class="education-major" id="edu1Major">Information Technology (B.E)</p>
+              <p class="education-score" id="edu1Score">CGPA 3.38 / 4.00</p>
+              <ul class="education-list premium-list" id="edu1List"></ul>
+            </div>
+          </article>
+
+          <article class="education-card premium-card reveal delay-1">
+            <div class="education-image-wrap">
+              <img src="assets/images/myskill.png" alt="MySkill" class="education-image education-image-contain" />
+              <div class="education-overlay education-overlay-soft"></div>
+              <span class="education-badge" id="edu2Year">Feb – Mar 2026</span>
+            </div>
+            <div class="education-content">
+              <p class="education-label" id="edu2Label">BOOTCAMP</p>
+              <h3 id="edu2School">MySkill</h3>
+              <p class="education-major" id="edu2Major">Excel Data Analyst Bootcamp</p>
+              <p class="education-score" id="edu2Score">Includes HR Data Project</p>
+              <ul class="education-list premium-list" id="edu2List"></ul>
+            </div>
+          </article>
+
+          <article class="education-card premium-card reveal">
+            <div class="education-image-wrap">
+              <img src="assets/images/dibimbing.png" alt="Dibimbing" class="education-image education-image-contain" />
+              <div class="education-overlay education-overlay-soft"></div>
+              <span class="education-badge" id="edu3Year">Apr – Sep 2025</span>
+            </div>
+            <div class="education-content">
+              <p class="education-label" id="edu3Label">BOOTCAMP</p>
+              <h3 id="edu3School">Dibimbing.id</h3>
+              <p class="education-major" id="edu3Major">Data Analytics and Science</p>
+              <p class="education-score" id="edu3Score">Final Score 83.57 / 100</p>
+              <ul class="education-list premium-list" id="edu3List"></ul>
+            </div>
+          </article>
+
+          <article class="education-card premium-card reveal delay-1">
+            <div class="education-image-wrap">
+              <img src="assets/images/dqlab.png" alt="DQLab" class="education-image education-image-contain" />
+              <div class="education-overlay education-overlay-soft"></div>
+              <span class="education-badge" id="edu4Year">Feb – Apr 2026</span>
+            </div>
+            <div class="education-content">
+              <p class="education-label" id="edu4Label">BOOTCAMP</p>
+              <h3 id="edu4School">DQLab</h3>
+              <p class="education-major" id="edu4Major">Excel Data Analyst Program</p>
+              <p class="education-score" id="edu4Score">Advanced Excel Learning Track</p>
+              <ul class="education-list premium-list" id="edu4List"></ul>
+            </div>
+          </article>
+
+          <article class="education-card premium-card reveal">
+            <div class="education-image-wrap">
+              <img src="assets/images/mlai.jpg" alt="ML AI" class="education-image education-image-contain" />
+              <div class="education-overlay education-overlay-soft"></div>
+              <span class="education-badge" id="edu5Year">Apr – Jun 2026</span>
+            </div>
+            <div class="education-content">
+              <p class="education-label" id="edu5Label">BOOTCAMP</p>
+              <h3 id="edu5School">Machine Learning & AI</h3>
+              <p class="education-major" id="edu5Major">Bootcamp Machine Learning & AI</p>
+              <p class="education-score" id="edu5Score">End-to-End Learning Journey</p>
+              <ul class="education-list premium-list" id="edu5List"></ul>
+            </div>
+          </article>
+
+          <article class="education-card premium-card reveal delay-1">
+            <div class="education-image-wrap certification-banner">
+              <div class="education-overlay education-overlay-soft"></div>
+              <span class="education-badge" id="edu6Year">Certification</span>
+            </div>
+            <div class="education-content">
+              <p class="education-label" id="edu6Label">SERTIFIKASI</p>
+              <h3 id="edu6School">Microsoft Office Specialist</h3>
+              <p class="education-major" id="edu6Major">Excel Associate</p>
+              <p class="education-score" id="edu6Score">Professional Excel Certification</p>
+              <ul class="education-list premium-list" id="edu6List"></ul>
+            </div>
+          </article>
+
+          <article class="education-card premium-card reveal">
+            <div class="education-image-wrap scholarship-banner scholarship-banner-microsoft">
+              <div class="education-overlay education-overlay-soft"></div>
+              <span class="education-badge" id="edu7Year">2025–2026</span>
+            </div>
+            <div class="education-content">
+              <p class="education-label" id="edu7Label">BEASISWA / PROGRAM BELAJAR</p>
+              <h3 id="edu7School">Microsoft Elevate Training Center</h3>
+              <p class="education-major" id="edu7Major">Microsoft Elevate 2025</p>
+              <p class="education-score" id="edu7Score">Data Science & Python Learning Path</p>
+              <ul class="education-list premium-list" id="edu7List"></ul>
+            </div>
+          </article>
+
+          <article class="education-card premium-card reveal delay-1">
+            <div class="education-image-wrap scholarship-banner scholarship-banner-dbs">
+              <div class="education-overlay education-overlay-soft"></div>
+              <span class="education-badge" id="edu8Year">2026</span>
+            </div>
+            <div class="education-content">
+              <p class="education-label" id="edu8Label">BEASISWA / PROGRAM BELAJAR</p>
+              <h3 id="edu8School">Coding Camp 2026 powered by DBS Foundation</h3>
+              <p class="education-major" id="edu8Major">Coding Camp 2026 Progressive</p>
+              <p class="education-score" id="edu8Score">Foundation to Data Scientist Track</p>
+              <ul class="education-list premium-list" id="edu8List"></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="experience">
+      <div class="container">
+        <div class="section-head reveal work-head">
+          <h2 id="workTitle">Pengalaman Kerja</h2>
+          <p id="workDesc">Pengalaman saya di bidang software development, analytics, dashboard reporting, dan pengambilan keputusan berbasis data.</p>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card reveal">
+            <div class="work-card-top">
+              <div class="work-company-wrap">
+                <img src="assets/images/cmlabs.png" alt="CMLABS" class="work-logo" />
+                <div>
+                  <p class="work-company" id="work1Company">PT CMLABS</p>
+                  <p class="work-period" id="work1Period">November 2025 – January 2026</p>
+                </div>
+              </div>
+              <span class="work-badge" id="work1Badge">1</span>
+            </div>
+            <h3 id="work1Role">Data Analytics Intern</h3>
+            <ul class="work-list" id="work1List"></ul>
+          </article>
+
+          <article class="work-card reveal delay-1">
+            <div class="work-card-top">
+              <div class="work-company-wrap">
+                <img src="assets/images/phe.png" alt="PHE" class="work-logo work-logo-special" />
+                <div>
+                  <p class="work-company" id="work2Company">PT Pertamina Hulu Energi</p>
+                  <p class="work-period" id="work2Period">July 2025 – August 2025</p>
+                </div>
+              </div>
+              <span class="work-badge" id="work2Badge">2</span>
+            </div>
+            <h3 id="work2Role">Full Stack .NET Developer & Systems Analyst</h3>
+            <ul class="work-list" id="work2List"></ul>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-card-top">
+              <div class="work-company-wrap">
+                <img src="assets/images/bridgestone.png" alt="Bridgestone" class="work-logo work-logo-special" />
+                <div>
+                  <p class="work-company" id="work3Company">PT Bridgestone Tire Indonesia</p>
+                  <p class="work-period" id="work3Period">February 2022 – June 2025</p>
+                </div>
+              </div>
+              <span class="work-badge" id="work3Badge">3</span>
+            </div>
+            <h3 id="work3Role">Full Stack .NET Developer & Systems Analyst</h3>
+            <ul class="work-list" id="work3List"></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-pro-section" id="skillsPro">
+      <div class="container">
+        <div class="section-head reveal skills-pro-head">
+          <h2 id="skillsProTitle">Skills & Proficiency</h2>
+          <p id="skillsProDesc">Kumpulan tools, library, visualisasi, dan soft skills yang saya gunakan dalam data analysis, machine learning, reporting, dan automasi Excel.</p>
+        </div>
+
+        <div class="skills-pro-grid">
+          <article class="skills-pro-card reveal">
+            <div class="skills-pro-label">
+              <span class="skills-pro-number">1</span>
+              <h3 id="skillBox1Title">Programming Languages</h3>
+            </div>
+            <div class="skills-pro-icons two-cols compact-icons">
+              <div class="skill-pro-item">
+                <img src="assets/icons/python.png" alt="Python" />
+                <p>Python</p>
+              </div>
+              <div class="skill-pro-item">
+                <img src="assets/icons/postgresql.png" alt="PostgreSQL" />
+                <p>PostgreSQL</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="skills-pro-card reveal delay-1 skills-tools-card">
+            <div class="skills-pro-label">
+              <span class="skills-pro-number">2</span>
+              <h3 id="skillBox2Title">Frameworks & Tools</h3>
+            </div>
+            <div class="skills-pro-icons one-row-tools">
+              <div class="skill-pro-item"><img src="assets/icons/pandas.png" alt="Pandas" /><p>Pandas</p></div>
+              <div class="skill-pro-item"><img src="assets/icons/numpy.png" alt="NumPy" /><p>NumPy</p></div>
+              <div class="skill-pro-item"><img src="assets/icons/scikit-learn.png" alt="Scikit Learn" /><p>Scikit Learn</p></div>
+              <div class="skill-pro-item"><img src="assets/icons/tensorflow.png" alt="TensorFlow" /><p>TensorFlow</p></div>
+            </div>
+          </article>
+
+          <article class="skills-pro-card reveal">
+            <div class="skills-pro-label">
+              <span class="skills-pro-number">3</span>
+              <h3 id="skillBox3Title">Visualizations</h3>
+            </div>
+            <div class="skills-pro-icons five-cols">
+              <div class="skill-pro-item"><img src="assets/icons/tableau.png" alt="Tableau" /><p>Tableau</p></div>
+              <div class="skill-pro-item"><img src="assets/icons/powerbi.png" alt="Power BI" /><p>Power BI</p></div>
+              <div class="skill-pro-item"><img src="assets/icons/seaborn.png" alt="Seaborn" /><p>Seaborn</p></div>
+              <div class="skill-pro-item"><img src="assets/icons/matplotlib.png" alt="Matplotlib" /><p>Matplotlib</p></div>
+              <div class="skill-pro-item"><img src="assets/icons/plotly.png" alt="Plotly" /><p>Plotly</p></div>
+            </div>
+          </article>
+
+          <article class="skills-pro-card reveal delay-1">
+            <div class="skills-pro-label">
+              <span class="skills-pro-number">4</span>
+              <h3 id="skillBox4Title">Soft Skills</h3>
+            </div>
+            <ul class="soft-skill-list" id="softSkillList"></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cert-section" id="certificates">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="certTitle">Sertifikasi & Pencapaian</h2>
+          <p id="certDesc">Bukti validasi keahlian saya di bidang Data Analytics, Data Science, dan SQL dari berbagai platform ternama.</p>
+        </div>
+        <div class="cert-grid" id="certGrid">
+          </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="projectTitle">Proyek Pilihan</h2>
+          <p id="projectDesc">Beberapa proyek yang menampilkan kemampuan analisis data, dashboard, data preparation, dan business insight.</p>
+        </div>
+
+        <h3 class="category-title reveal" id="catDaTitle">DATA ANALYST PROJECT</h3>
+        <div class="project-grid" id="daProjectGrid">
+          </div>
+
+        <h3 class="category-title reveal" id="catDsTitle" style="margin-top: 60px;">DATA SCIENCE PROJECT</h3>
+        <div class="project-grid" id="dsProjectGrid">
+          </div>
+
+        <div class="pdf-section reveal">
+          <h3 id="pdfTitle">Baca Dokumen Portofolio Lengkap</h3>
+          <p id="pdfDesc">Pilih versi PDF di bawah ini untuk melihat detail metodologi, kode, dan insight dari proyek-proyek saya.</p>
+          
+          <div class="pdf-cards">
+            <button class="pdf-btn" onclick="openPdfModal('da')">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <line x1="10" y1="9" x2="8" y2="9"></line>
+              </svg>
+              <span id="btnPdfDa">Portofolio Data Analyst</span>
+            </button>
+            <button class="pdf-btn" onclick="openPdfModal('ds')">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <line x1="10" y1="9" x2="8" y2="9"></line>
+              </svg>
+              <span id="btnPdfDs">Portofolio Data Science</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="contact-head reveal">
+          <h2 id="contactTitle">Mari Berkolaborasi!</h2>
+          <p id="contactDesc">Untuk peluang kerja, kolaborasi, atau diskusi seputar data analyst dan data science, hubungi saya melalui kontak berikut.</p>
+        </div>
+
+        <div class="contact-horizontal-panel reveal delay-1">
+          
+          <a href="mailto:maulanaaripianto@gmail.com" class="contact-card-hz">
+            <div class="contact-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <h3 id="contactEmailTitle">Email Saya</h3>
+              <p>maulanaaripianto@gmail.com</p>
+              <span class="contact-action-btn" id="contactEmailBtn">Kirim Email</span>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/maulana-aripianto/" target="_blank" rel="noopener noreferrer" class="contact-card-hz">
+            <div class="contact-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <h3 id="contactLinkedinTitle">LinkedIn</h3>
+              <p>in/maulana-aripianto</p>
+              <span class="contact-action-btn" id="contactLinkedinBtn">Buka Profil</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/maulanaaripianto" target="_blank" rel="noopener noreferrer" class="contact-card-hz">
+            <div class="contact-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <h3 id="contactGithubTitle">GitHub</h3>
+              <p>maulanaaripianto</p>
+              <span class="contact-action-btn" id="contactGithubBtn">Lihat GitHub</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="pdfModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closePdfModal()">&times;</span>
+      <h3 id="modalTitle">Preview Portofolio</h3>
+      <div class="iframe-container">
+        <iframe id="pdfIframe" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
