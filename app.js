@@ -174,15 +174,15 @@ const content = {
     certDesc: "Bukti validasi keahlian saya di bidang Data Analytics, Data Science, dan SQL dari berbagai platform ternama.",
     
     certificates: [
-      { title: "R for Data Professional – DQLab", img: "assets/images/certs/dqlab-r.png", link: "#" },
-      { title: "Memulai Pemrograman dengan Python Dicoding Indonesia", img: "assets/images/certs/dicoding-python.png", link: "#" },
-      { title: "Belajar Dasar Structured Query Language (SQL) – Dicoding Indonesia", img: "assets/images/certs/dicoding-sql.png", link: "#" },
-      { title: "Belajar Dasar Data Science Dicoding Indonesia", img: "assets/images/certs/dicoding-ds.png", link: "#" },
-      { title: "Belajar Dasar AI (Artificial Intelligence) Dicoding Indonesia", img: "assets/images/certs/dicoding-ai.png", link: "#" },
-      { title: "Data Analyst & Data Science Bootcamp – Dibimbing.id", img: "assets/images/certs/dibimbing-bootcamp.png", link: "#" },
-      { title: "Belajar Penerapan Data Science dengan Microsoft Fabric Dicoding Indonesia", img: "assets/images/certs/dicoding-fabric.png", link: "#" },
-      { title: "Certificated Intern CMLABS Data Analyst", img: "assets/images/certs/cmlabs-intern.png", link: "#" },
-      { title: "SQL Advanced – HackerRank", img: "assets/images/certs/hackerrank-sql.png", link: "#" }
+      { title: "R for Data Professional – DQLab", img: "assets/images/certs/dqlab-r.PNG", link: "https://academy.dqlab.id/certificate/pdf/DQLABRFDPGSRGSD" },
+      { title: "Memulai Pemrograman dengan Python Dicoding Indonesia", img: "assets/images/certs/dicoding-python.PNG", link: "https://www.dicoding.com/certificates/JLX157DYNZ72" },
+      { title: "Belajar Dasar Structured Query Language (SQL) – Dicoding Indonesia", img: "assets/images/certs/dicoding-sql.PNG", link: "https://www.dicoding.com/certificates/L4PQ21GQOZO1" },
+      { title: "Belajar Dasar Data Science Dicoding Indonesia", img: "assets/images/certs/dicoding-ds.PNG", link: "https://www.dicoding.com/certificates/53XEKONLKXRN" },
+      { title: "Belajar Dasar AI (Artificial Intelligence) Dicoding Indonesia", img: "assets/images/certs/dicoding-ai.PNG", link: "https://www.dicoding.com/certificates/QLZ9672MMZ5D" },
+      { title: "Data Analyst & Data Science Bootcamp – Dibimbing.id", img: "assets/images/certs/dibimbing-bootcamp.PNG", link: "https://dibimbing.id/certificate-validation?cn=201029DS33B101122" },
+      { title: "Belajar Penerapan Data Science dengan Microsoft Fabric Dicoding Indonesia", img: "assets/images/certs/dicoding-fabric.PNG", link: "https://www.dicoding.com/certificates/JMZVV8KJRZN9" },
+      { title: "Certificated Intern CMLABS Data Analyst", img: "assets/images/certs/cmlabs-intern.PNG", link: "https://drive.google.com/file/d/1sDuf9cHSdyfuf6L_ucNEDUKGppMYAsr7/view" },
+      { title: "SQL Advanced – HackerRank", img: "assets/images/certs/hackerrank-sql.PNG", link: "https://www.hackerrank.com/certificates/iframe/a71c9c8e2a1f" }
     ],
 
     projectTitle: "Proyek Pilihan",
@@ -204,19 +204,19 @@ const content = {
       {
         title: "Review & Analisis RFM untuk Evaluasi Performa Produk di Lazada (2019)",
         desc: "Menggunakan data Lazada 2019, studi ini mengevaluasi performa produk, menerapkan segmentasi RFM, dan merumuskan strategi promosi dari ulasan pelanggan serta perilaku pembelian.",
-        img: "assets/images/projects/lazada.png",
+        img: "assets/images/projects/lazada.PNG",
         link: "https://drive.google.com/drive/folders/1iKDgqIpg7KY5G3YuE8DYByMVc8f9gsb8"
       },
       {
         title: "Analisis Operasional dan Kepuasan Pelanggan Layanan Pengiriman Zomato",
         desc: "Proyek ini menganalisis operasional pengiriman dan kepuasan pelanggan Zomato untuk mengidentifikasi faktor utama efisiensi pengiriman dan memberikan rekomendasi yang dapat ditindaklanjuti.",
-        img: "assets/images/projects/zomato.png",
+        img: "assets/images/projects/zomato.PNG",
         link: "https://drive.google.com/drive/folders/1m4mIstJwRmN7Vc_5JTB8UFYSB-RJIHXF"
       },
       {
         title: "Analisis Data Pemesanan Hotel: Hubungan Antara Karakteristik Pelanggan, Operasional, dan Pendapatan",
         desc: "Proyek ini menganalisis perilaku pelanggan dan operasional hotel untuk mengoptimalkan pendapatan dan meningkatkan kepuasan pelanggan.",
-        img: "assets/images/projects/hotel.png",
+        img: "assets/images/projects/hotel.PNG",
         link: "https://drive.google.com/drive/folders/1L_GakdIlfXnKfBSnqEpSg7VYamy15y-f"
       }
     ],
@@ -225,13 +225,13 @@ const content = {
       {
         title: "Pemodelan SARIMA untuk Peramalan Deret Waktu Investasi",
         desc: "Proyek ini bertujuan menganalisis tren investasi di Indonesia menggunakan data historis (2010-2025) dan membangun model prediktif dengan SARIMA untuk meramalkan pola investasi di masa depan.",
-        img: "assets/images/projects/sarima.png",
+        img: "assets/images/projects/sarima.PNG",
         link: "https://drive.google.com/drive/folders/1NfArEIoXBbluR1PcBqxUCwsYTdvmGnnM?hl=ID"
       },
       {
         title: "Analisis Perilaku Pengguna E-Commerce dan Prediksi Pembelian",
         desc: "Proyek ini bertujuan menganalisis perilaku pengguna e-commerce untuk memahami pola interaksi, memprediksi kemungkinan pembelian, dan memperkirakan pengeluaran pelanggan.",
-        img: "assets/images/projects/ecommerce.png",
+        img: "assets/images/projects/ecommerce.PNG",
         link: "https://drive.google.com/drive/folders/1GYiJ7FkKIpUZ6T1iaSwHWUPQNIMHald_?hl=ID"
       }
     ],
